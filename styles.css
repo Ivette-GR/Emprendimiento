@@ -229,3 +229,12 @@ img.perfil {
   font-size: 0.95rem;
   line-height: 1.4;
 }
+
+.imagen-bienvenida {
+  display: block;
+  margin: 1.5rem auto;   /* centrada con margen arriba y abajo */
+  width: 200px;          /* tamaño fijo más pequeño */
+  height: auto;          /* mantiene proporción */
+  border-radius: 8px;
+  border: 2px solid var(--azul);
+}
