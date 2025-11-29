@@ -237,7 +237,7 @@ img.perfil {
   border: 2px solid var(--azul);
   border-radius: 8px;
   padding: 1rem;
-  width: 250px;             /* tamaño uniforme */
+  width: 300px;             /* tamaño uniforme */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -251,12 +251,13 @@ img.perfil {
 .imagen-servicio {
   display: block;
   margin: 0 auto 1rem auto;
-  width: 200px;             /* tamaño fijo */
-  height: 200px;            /* altura fija */
+  width: 100%;              /* ocupa todo el ancho de la tarjeta */
+  height: 180px;            /* altura fija más grande */
   object-fit: cover;        /* recorta sin deformar */
   border-radius: 8px;
   border: 2px solid var(--blanco);
 }
+
 
 /* Texto debajo de la imagen */
 .servicio p {
