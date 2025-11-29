@@ -147,3 +147,21 @@ img.perfil {
   border-radius: 50%;
   border: 3px solid var(--azul);
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra todo el contenido del header */
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center; /* alinea verticalmente logo y texto */
+  justify-content: center; /* centra horizontalmente */
+  gap: 10px; /* espacio entre logo y título */
+}
+
+.logo {
+  width: 60px;   /* ajusta el tamaño del logo */
+  height: auto;  /* mantiene proporción */
+}
