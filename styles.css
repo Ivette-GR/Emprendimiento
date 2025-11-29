@@ -117,7 +117,7 @@ button:hover {
 video, audio {
   display: block;
   margin: 2rem auto;
-  max-width: 100%;
+  max-width: 80%;
   border: 2px solid var(--azul);
   border-radius: 8px;
 }
@@ -175,7 +175,7 @@ img.perfil {
 .imagen-bienvenida {
   display: block;
   margin: 1.5rem auto 0 auto;
-  width: 300px; /* ajusta el tamaño aquí según lo que necesites */
+  width: 200px; /* ajusta el tamaño aquí según lo que necesites */
   height: auto;
   border-radius: 8px;
   border: 2px solid var(--azul);
