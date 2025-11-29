@@ -230,4 +230,45 @@ img.perfil {
   line-height: 1.4;
 }
 
+/* Contenedor de servicios */
+.servicios {
+  display: flex;
+  flex-wrap: wrap;          /* permite varias filas */
+  justify-content: center;  /* centra horizontalmente */
+  gap: 2rem;                /* espacio entre tarjetas */
+  margin-top: 1.5rem;
+}
+
+/* Cada tarjeta de servicio */
+.servicio {
+  background-color: var(--gris);
+  border: 2px solid var(--azul);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;             /* tamaño uniforme */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Imagen de cada servicio */
+.imagen-servicio {
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 200px;             /* tamaño fijo */
+  height: 150px;            /* altura fija */
+  object-fit: cover;        /* recorta sin deformar */
+  border-radius: 8px;
+  border: 2px solid var(--azul);
+}
+
+/* Texto debajo de la imagen */
+.servicio p {
+  color: var(--blanco);
+  font-weight: bold;
+}
 
