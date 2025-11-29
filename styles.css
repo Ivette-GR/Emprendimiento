@@ -172,3 +172,58 @@ img.perfil {
   border-radius: 50%;
   border: 3px solid var(--azul);
 }
+.imagen-bienvenida {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  width: 300px; /* ajusta el tamaño aquí según lo que necesites */
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--azul);
+}
+/* Galería de proyectos */
+.galeria {
+  display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  gap: 2rem;                 /* espacio entre proyectos */
+  flex-wrap: wrap;           /* permite que se acomoden en varias filas */
+  margin: 2rem auto;
+  max-width: 1200px;         /* ancho máximo de la galería */
+}
+
+/* Cada proyecto */
+.proyecto {
+  background-color: var(--gris);
+  border: 2px solid var(--azul);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;              /* tamaño estándar para todas las tarjetas */
+  text-align: center;        /* centra el texto dentro de la tarjeta */
+  color: var(--blanco);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Imagen dentro de cada proyecto */
+.proyecto img {
+  width: 100%;               /* ocupa todo el ancho de la tarjeta */
+  height: 200px;             /* altura fija para estandarizar */
+  object-fit: cover;         /* recorta la imagen sin deformarla */
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Títulos y párrafos */
+.proyecto h3 {
+  color: var(--ambar);
+  margin-bottom: 0.5rem;
+}
+
+.proyecto p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
