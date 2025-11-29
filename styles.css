@@ -230,14 +230,6 @@ img.perfil {
   line-height: 1.4;
 }
 
-/* Contenedor de servicios */
-.servicios {
-  display: flex;
-  flex-wrap: wrap;          /* permite varias filas */
-  justify-content: center;  /* centra horizontalmente */
-  gap: 2rem;                /* espacio entre tarjetas */
-  margin-top: 1.5rem;
-}
 
 /* Cada tarjeta de servicio */
 .servicio {
