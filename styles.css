@@ -259,8 +259,8 @@ img.perfil {
 .imagen-servicio {
   display: block;
   margin: 0 auto 1rem auto;
-  width: 200px;             /* tamaño fijo */
-  height: 150px;            /* altura fija */
+  width: 80px;             /* tamaño fijo */
+  height: 50px;            /* altura fija */
   object-fit: cover;        /* recorta sin deformar */
   border-radius: 8px;
   border: 2px solid var(--azul);
