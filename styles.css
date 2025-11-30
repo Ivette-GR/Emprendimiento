@@ -234,7 +234,7 @@ img.perfil {
 /* Cada tarjeta de servicio */
 .servicio {
   background-color: var(--gris);
-  border: 2px solid var(--azul);
+  border: 2px solid var(--negro);
   border-radius: 8px;
   padding: 1rem;
   width: 300px;             /* tamaño uniforme */
@@ -263,5 +263,29 @@ img.perfil {
 .servicio p {
   color: var(--blanco);
   font-weight: bold;
+}
+/* Sección de tutorial */
+section.tutorial {
+  background-color: var(--gris);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+section.tutorial h2 {
+  color: var(--ambar);
+  margin-bottom: 1rem;
+}
+
+section.tutorial video {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;       /* ocupa todo el ancho del contenedor */
+  max-width: 700px;  /* límite en escritorio */
+  height: auto;      /* mantiene proporción */
+  border: 2px solid var(--azul);
+  border-radius: 8px;
 }
 
