@@ -287,13 +287,4 @@ section.tutorial p {
 }
 
 
-section.tutorial video {
-  display: block;
-  margin: 1rem auto;
-  width: 80%;       /* ocupa todo el ancho del contenedor */
-  max-width: 400px;  /* límite en escritorio */
-  height: auto;      /* mantiene proporción */
-  border: 2px solid var(--azul);
-  border-radius: 8px;
-}
 
